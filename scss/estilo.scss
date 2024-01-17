@@ -6,7 +6,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import "partials/formulario";
+@import "partials/nosotros";
+@import "partials/servicios";
+@import "partials/puntos";
 
+$color : #2471A3;
 a {
     text-decoration: none;
     color: rgb(244, 244, 244);
@@ -25,7 +30,7 @@ img {
 /*navegador---- header*/
 
 header {
-    background-color: #2471A3;
+    background-color: $color;
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -135,5 +140,7 @@ footer {
 }
 
 }
+
+
 
 
